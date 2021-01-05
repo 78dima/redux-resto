@@ -4,7 +4,7 @@ import './menu-list-item.scss';
 const MenuListItem = ({menuItem, onAddToCart, visibleBtn}) => {
 	let btnClass = ['menu__btn'];
 	const {title, price, url, category} = menuItem;
-	console.log();
+	console.log('');
 	visibleBtn===false ? btnClass.push('lalal') : btnClass = ['menu__btn'];
     return (
 		<li className="menu__item">
