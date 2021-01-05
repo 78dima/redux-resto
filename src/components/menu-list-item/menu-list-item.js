@@ -18,5 +18,5 @@ const MenuListItem = ({menuItem, onAddToCart, visibleBtn}) => {
 		</li>
     )
 }
-
+  
 export default MenuListItem;
